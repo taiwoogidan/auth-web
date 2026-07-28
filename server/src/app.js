@@ -13,6 +13,9 @@ app.use(
     credentials: true,
   }),
 );
+app.get("/", (req, res) => {
+    res.send("API is running");
+});
 app.use(helmet());
 app.use(express.json());
 app.use(cookieParser());
