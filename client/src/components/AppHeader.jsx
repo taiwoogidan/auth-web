@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const navigationItems = [
   { label: "Home", to: "/" },
-  { label: "About", href: "/profile" },
+  { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
   { label: "Terms & Conditions", href: "#terms" },
 ];
